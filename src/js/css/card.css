@@ -1,0 +1,39 @@
+
+.links{
+    text-decoration: none;
+    color: grey;
+    border: 2px solid grey;
+    box-shadow: 1.2vw 1.2vw 2vw 0 grey;
+    font-size : 1.2vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    font-size: calc(1vw);
+    margin-bottom: 2vw;
+}
+.position{
+    color: #0bcad8;
+    font-size: calc(2vw);
+}
+.section{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 25%;
+    border: 4px solid black;
+    border-radius: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+}
+.name{
+    font-size: calc(2vw);
+    color: #0bcad8;
+}
+@media only screen and (max-width:700px){
+    .section{
+        width: 45%;
+        margin-top: 5vw;
+    }
+}
