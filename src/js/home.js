@@ -13,7 +13,7 @@ export default function home(){
     </section>
     <section className='display'>
     <Card img={links[3].img} Name={links[3].Name} rank={links[3].rank} link={links[3].links}/>
-    <Card img={links[4].img} Name={links[4].Name} rank={links[4].rank} link={links[4].link}/>
+    <Card img={links[4].img} Name={links[4].Name} rank={links[4].rank} link={links[4].links}/>
     </section>
     <Head college='NITs'/>
     <section className='display'>
